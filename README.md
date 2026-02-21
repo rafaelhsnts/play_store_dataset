@@ -1,11 +1,18 @@
 # **Google Play Store Dataset**
 
-
+O objetivo é analisar dados da Play Store da Google, para identificar as características dos aplicativos associadas ao seu desempenho na plataforma, gerando insights que possam contribuir para a melhoria da experiência do usuário.
 
 ## **Dataset**
 
-O dataset utilizado foi o 
+```
+Fonte: Kaggle
+Nome: Google Play Store Apps
+link: https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps
 
+Arquivo utilizado: 'Google-Playstore.csv'
+Registros: 2312944 linhas e 24 colunas
+Acessado em: Fevereiro/2026
+```
 
 ## **Principais colunas**
 
@@ -43,8 +50,21 @@ play_store_dataset
 ## **Como executar**
 
 1. Clone o repositório:
-    git clone https://github.com/rafaelhsnts/play_store_dataset.git
-2. Instale as depenências:
-    pip install -r requirements.txt
-3. Abra o notebook no Jupter ou Colab:
-    notebooks/google_play_store_apps.ipynb
+```bash
+git clone https://github.com/rafaelhsnts/play_store_dataset.git
+cd play_store_dataset
+```
+2. Crie e ative um ambiente virtual:
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+3. Instale as dependências:
+```bash
+pip install -r requirements.txt
+```
+4. Abra o notebook no Jupyter ou Colab:
+```bash
+pip install jupyterlab
+jupyter lab notebooks/google_play_store_apps.ipynb
+```
